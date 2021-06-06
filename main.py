@@ -103,7 +103,7 @@ class FinanznachrichtentickerFrame(wx.Frame):
 
             # Holen der eigentlichen Nachricht
             newsItem = self.getNewsText(linkClicked)
-            htmlToDisplay = "<h4>" + newsItem.title + "</h4>"+ newsItem.summary
+            htmlToDisplay = "<h4>" + newsItem.title + "</h4>" + newsItem.summary
             htmlWin.AppendToPage(htmlToDisplay)
 
             # Darstellung
